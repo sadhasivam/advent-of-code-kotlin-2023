@@ -1,8 +1,8 @@
 package sj.aoc2023.chassis
 
-typealias  Gear = List<String>
+typealias  GearScheme = List<String>
 
-fun Gear.getPartNumbers() : List<Int> {
+fun GearScheme.getPartNumbers() : List<Int> {
     val machineValues = mutableListOf<Int>()
 
     for ((i, line) in this.withIndex()) {
